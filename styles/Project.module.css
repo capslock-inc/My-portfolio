@@ -1,0 +1,116 @@
+.project{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    width: 100vw;
+}
+
+
+.uright{
+    margin-top: 3rem;
+    margin-right: 10rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.uright>:nth-child(1){
+    font-size: 4rem ;
+    font-weight: 600;
+    background: -webkit-linear-gradient(0deg, #433FF1 0%, #EF1F83 80.21%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.uright>:nth-child(2){
+    font-size: 18px ;
+    font-weight: 300;
+    color: var(--txt-para);
+}
+.uleft{
+    flex:1;
+    
+}
+.uleft>img{
+    /* margin: -12rem -12rem -12rem -17rem;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    padding: 0; */
+    width: 750px;
+    height: 500px;
+}
+
+
+.lower{
+    display: flex;
+    
+}
+.fl{
+   flex:0.5 
+}
+.lleft{
+    margin-left: 6rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} 
+.lleft>:nth-child(1){
+    font-size: 4rem ;
+    font-weight: 600;
+    background: -webkit-linear-gradient(0deg, #433FF1 0%, #EF1F83 80.21%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lleft>:nth-child(2){
+    font-size: 18px ;
+    font-weight: 300;
+    color: var(--txt-para);
+}
+.lright{
+    justify-content:right;
+}
+.lright>img{
+    margin-left: 12rem;
+    width: 750px;
+    height: 500px;
+}
+
+@media only screen and (max-width:600px){
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .uright{
+        width: 100vw;
+        margin-left: 3rem;
+    }
+    .uleft>img{
+        width: 550px;
+        height: 370px;
+    }
+    .lower{
+        flex-direction: column;
+    }
+    .lleft{
+        margin-left: 3rem;
+        margin-right: 1.5rem;
+        padding-bottom: 0;
+    }
+    .lright>img{
+        margin-left: 0;
+        width:550px;
+        height: 370px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .uright{
+        padding-left: 8rem;
+    }
+}
