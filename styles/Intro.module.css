@@ -20,7 +20,9 @@
 .left>:nth-child(1){
     font-size: 3rem;
     font-weight: 600;
-    color: var(--txt-para);
+    background: -webkit-linear-gradient(0deg, #433FF1 0%, #EF1F83 60.21%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .left>:nth-child(2){
     margin-top: -2rem;
@@ -100,12 +102,19 @@
     .intro{
         flex-direction: column;
     }
+    .break{
+        display: none;
+    }
     .left{
         width: 100vw;
-        margin-left: -3rem;   
+        margin-left: -3rem;
     }
     .right>img{
         display:none;
+    }
+    .footer>ul{
+        margin-left: 11rem;
+        margin-top: -7rem;
     }
     
 }

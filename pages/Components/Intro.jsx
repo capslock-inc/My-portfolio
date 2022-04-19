@@ -16,8 +16,8 @@ export default function Intro() {
             <span>I&#39;m Althaf A</span>
             <span>
             From Chennai, India.<br/>
-            I&#39;m a Software engineer, who is passionate<br/> about building amazing stuffs.
-            Hire me as<br/> Fullstack developer, software developer,<br/> Devops engineer or Mentor.
+            I&#39;m a Software engineer, who is passionate<br className={style.break}/> about building amazing stuffs.
+            Hire me as<br className={style.break}/> Fullstack developer, software developer,<br className={style.break}/> Devops engineer or Mentor.
             </span>
              <a href='mailto: althafsubair04@gmail.com'><button className={style.ibutton}>Hire me</button></a>
         </motion.div>
