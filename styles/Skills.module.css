@@ -47,7 +47,7 @@
 
 .lower{
     display: flex;
-    
+                    
 }
 .fl{
    flex:0.5 
@@ -84,6 +84,9 @@
 @media only screen and (max-width:600px){
     .wrapper{
         flex-direction: column-reverse;
+    }
+    .dummy{
+        display: none;
     }
     .uright{
         width: 100vw;

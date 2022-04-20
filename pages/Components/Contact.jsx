@@ -15,10 +15,6 @@ export default function Contact() {
           <span>I live in </span>
           <span>Chennai,India</span>
       </div>
-      <div 
-        className={style.blur}
-        
-        ></div>
       </div>
 
       <div className={style.wrapper}>

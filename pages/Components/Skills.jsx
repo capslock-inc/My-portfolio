@@ -24,7 +24,7 @@ export default function Skills() {
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}} className={style.uright}>
             <span>Programming<br/>Language</span>
-            <span>These are some programming language I<br/> personally love to work with, Because of <br/>its great community support and<br/>awesome things we can build with them.</span>
+            <span>These are some programming language I<br className={style.dummy}/> personally love to work with, Because of <br className={style.dummy} />its great community support and<br className={style.dummy} />awesome things we can build with them.</span>
           </motion.div>
         </div>
       </div>

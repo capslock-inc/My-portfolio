@@ -24,7 +24,7 @@ export default function Project() {
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}} className={style.uright}>
             <span>Distributed Tracing</span>
-            <span>On gRPC based microservices<br/> running on kubernetes environment <br/>Where services are built with nodejs and golang.<br/>All the services are containerzied and orchestrated<br/> using kubernetes. Logging and tracing done<br/> by using Logstach - ElasticSearch - Kibana </span>
+            <span>On gRPC based microservices running on kubernetes environmentWhere services are built with nodejs and golang.All the services are containerzied and orchestrated using kubernetes. Logging and tracing done by using Logstach - ElasticSearch - Kibana. </span>
           </motion.div>
         </div>
       </div>
