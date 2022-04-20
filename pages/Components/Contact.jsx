@@ -9,8 +9,8 @@ export default function Contact() {
       <div className={style.wrapper}>
       <div className={style.left}>
           <motion.img 
-          initial={{x:'0'}}
-          whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
+          // initial={{x:'0'}}
+          // whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
           src="chennai.png" alt="" />
           <span>I live in </span>
           <span>Chennai,India</span>
