@@ -16,7 +16,7 @@ export default function Skills() {
           <div className={style.uleft}>
             <motion.img
             initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
+            whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
             src={`${dark ? 'darkskils.png':'skills.png'}`} alt="" />
           </div>
 
@@ -41,7 +41,7 @@ export default function Skills() {
           <div className={style.lright}>
             <motion.img
             initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
+            whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
             src={`${dark ? 'darkframe.png':'framework.png'}`}  alt="" />
           </div>
       </div>

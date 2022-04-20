@@ -73,10 +73,11 @@
     color: var(--txt-para);
 }
 .lright{
-    justify-content:right;
+    display: flex;
+    justify-content:center;
 }
 .lright>img{
-    margin-left: 12rem;
+    padding-left: 14rem;
     width: 750px;
     height: 500px;
 }
@@ -87,12 +88,13 @@
     }
     .dummy{
         display: none;
-    }
+    } 
     .uright{
-        width: 100vw;
         margin-left: 3rem;
+        margin-right: -8rem;
     }
     .uleft>img{
+        margin-left: 2rem;
         width: 550px;
         height: 370px;
     }
@@ -101,11 +103,11 @@
     }
     .lleft{
         margin-left: 3rem;
-        margin-right: 1.5rem;
+        margin-right: -8rem;
         padding-bottom: 0;
     }
     .lright>img{
-        margin-left: 0;
+        margin-right: 2rem;
         width:550px;
         height: 370px;
     }
