@@ -6,7 +6,7 @@
 }
 .header{
     display: flex;
-    justify-content: center;
+    margin-left: 40rem;
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -25,7 +25,8 @@
 
 .uright{
     margin-top: 3rem;
-    margin-right: 10rem;
+    margin-left:3rem;
+    margin-right:3rem ;
     width: 470px;
     height: 400px;
     display: flex;

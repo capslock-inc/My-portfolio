@@ -2,6 +2,19 @@
     display:flex;
     justify-content: space-between;
 }
+.header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header>span{
+    color:#EF1F83;
+    font-size: 2rem;
+    font-weight: 600;
+}
 
 .left{
     display: flex;

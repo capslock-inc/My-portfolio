@@ -7,6 +7,8 @@ import { themecontext } from './Context'
 import { useContext } from 'react'
 import Skillsalter from './Components/Skillsalter'
 import Footer from './Components/Footer'
+import Contactfix from './Components/Contactfix'
+import Newcontact from './Newcontact'
 
 export default function Home() {
   const theme = useContext(themecontext);
@@ -29,7 +31,9 @@ export default function Home() {
       {/* <Footer/> */}
       <Skills/>
       <Project/>
-      <Contact/>
+      {/* <Contact/> */}
+      {/* <Contactfix/> */}
+      <Newcontact/>
     </div>
   )
 }

@@ -6,6 +6,9 @@ import { motion } from 'framer-motion'
 export default function Contact() {
   return (
     <div className={style.contact} id='Contact'>
+      <div className={style.header}>
+        <span>CONTACT</span>
+      </div>
       <div className={style.wrapper}>
       <div className={style.left}>
           <motion.img 
