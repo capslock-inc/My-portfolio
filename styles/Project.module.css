@@ -85,12 +85,15 @@
 @media only screen and (max-width:600px){
     .wrapper{
         flex-direction: column-reverse;
+        gap: 1rem;
     }
     .uright{
         width: 100vw;
-        margin-left: 3rem;
+        margin-left: 5rem;
+        margin-right:-3rem
     }
     .uleft>img{
+        margin-left: 2rem;
         width: 550px;
         height: 370px;
     }
@@ -98,12 +101,12 @@
         flex-direction: column;
     }
     .lleft{
-        margin-left: 3rem;
-        margin-right: 1.5rem;
+        margin-left: 5rem;
+        margin-right: -5rem;
         padding-bottom: 0;
     }
     .lright>img{
-        margin-left: 0;
+        margin-left: 2rem;
         width:550px;
         height: 370px;
     }
