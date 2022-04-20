@@ -6,6 +6,7 @@ export default function Intro() {
   
   return (
     <div>
+    <div>
     <div className={style.intro}>
 
         <motion.div
@@ -39,7 +40,15 @@ export default function Intro() {
         ></div>
         {/* blurends */}
     </div>
+   
+    </div>
+    <div style={
+      {
+        width:'100%'
+      }
+    }>
     <div className={style.footer}>
+      <div className={style.fake}></div>
       <ul>
         <motion.li
         initial={{opacity: 0}}
@@ -55,6 +64,8 @@ export default function Intro() {
         ><a href='mailto: althafsubair04@gmail.com'> Gmail</a></motion.li>
         
       </ul>
+      <div className={style.fake}></div>
+    </div>
     </div>
     </div>
   )
