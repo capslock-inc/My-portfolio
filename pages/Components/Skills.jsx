@@ -10,13 +10,16 @@ export default function Skills() {
 
   return (
     <div className={style.skills}>
+      <div className={style.header}>
+       <span>SKILLS</span>
+      </div>
 
       <div className={style.upper}>
         <div className={style.wrapper}>
           <div className={style.uleft}>
             <motion.img
-            initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
+            // initial={{x:'0'}}
+            // whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
             src={`${dark ? 'darkskils.png':'skills.png'}`} alt="" />
           </div>
 
@@ -30,18 +33,19 @@ export default function Skills() {
       </div>
 
       <div className={style.lower}>
-        <div className={style.fl}>
+        {/* <div className={style.fl}> */}
           <motion.div
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}} className={style.lleft}>
             <span>Frameworks & Tools</span>
             <span>These are some of my favorite framework and tools which greatly helps me with amazing productivity and high quality of work.</span>
-          </motion.div></div>
+          </motion.div>
+          {/* </div> */}
 
           <div className={style.lright}>
             <motion.img
-            initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
+            // initial={{x:'0'}}
+            // whileInView={{animation:'left-to-right 4s linear infinite alternate'}}
             src={`${dark ? 'darkframe.png':'framework.png'}`}  alt="" />
           </div>
       </div>

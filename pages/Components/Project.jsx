@@ -10,13 +10,16 @@ export default function Project() {
   const dark = theme.state.dark;
   return (
     <div className={style.project}>
+     <div className={style.header}>
+       <span>PROJECTS</span>
+      </div>
 
-<div className={style.upper}>
+      <div className={style.upper}>
         <div className={style.wrapper}>
           <div className={style.uleft}>
             <motion.img
-            initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
+            // initial={{x:'0'}}
+            // whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
             src={`${dark ? 'darkgrpc.png':'grpc.png'}`} alt="" />
           </div>
 
@@ -40,8 +43,8 @@ export default function Project() {
 
           <div className={style.lright}>
             <motion.img
-            initial={{x:'0'}}
-            whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
+            // initial={{x:'0'}}
+            // whileInView={{animation:'left-to-right 2s linear infinite alternate'}}
             src={`${dark ? 'darkfullstack.png':'fullstackecom.png'}`}  alt="" />
           </div>
       </div>

@@ -5,6 +5,8 @@ import Project from './Components/Project'
 import Contact from './Components/Contact'
 import { themecontext } from './Context'
 import { useContext } from 'react'
+import Skillsalter from './Components/Skillsalter'
+import Footer from './Components/Footer'
 
 export default function Home() {
   const theme = useContext(themecontext);
@@ -22,7 +24,9 @@ export default function Home() {
         `}
       </style>
       <Navbar/>
-      <Intro/>
+      {/* <Intro/> */}
+      <Skillsalter/>
+      {/* <Footer/> */}
       <Skills/>
       <Project/>
       <Contact/>

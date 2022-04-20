@@ -4,8 +4,22 @@
     flex-direction: column;
     position: relative;
 }
+.header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header>span{
+    color:#EF1F83;
+    font-size: 2rem;
+    font-weight: 600;
+}
 .wrapper{
     display: flex;
+    margin-top: 1rem;
     width: 100vw;
 }
 
@@ -32,10 +46,9 @@
 }
 .uleft{
     flex:1;
-    
 }
 .uleft>img{
-    /* margin: -12rem -12rem -12rem -17rem;
+ /* margin: -12rem -12rem -12rem -17rem;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -o-transform: scale(0.5);
