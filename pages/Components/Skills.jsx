@@ -12,7 +12,7 @@ export default function Skills() {
     <div className={style.skills}>
       <div className={style.header}>
        <span>SKILLS</span>
-      </div>
+      </div> 
 
       <div className={style.upper}>
         <div className={style.wrapper}>

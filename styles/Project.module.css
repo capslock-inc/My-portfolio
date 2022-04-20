@@ -27,6 +27,8 @@
 .uright{
     margin-top: 3rem;
     margin-right: 10rem;
+    width: 470px;
+    height: 400px;
     
     display: flex;
     flex-direction: column;
@@ -70,6 +72,8 @@
     margin-left: 6rem;
     padding-top:2rem;
     padding-bottom: 2rem;
+    width: 470px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -100,13 +104,16 @@
         flex-direction: column-reverse;
         gap: 1rem;
     }
+    .header{
+        margin-left: -3rem;
+    }
     .uright{
         width: 100vw;
         margin-left: 5rem;
         margin-right:-3rem
     }
     .uleft>img{
-        margin-left: 2rem;
+        margin-left: 3rem;
         width: 550px;
         height: 370px;
     }
@@ -119,7 +126,7 @@
         padding-bottom: 0;
     }
     .lright>img{
-        margin-left: 2rem;
+        margin-left: 3rem;
         width:550px;
         height: 370px;
     }
