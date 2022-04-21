@@ -6,7 +6,7 @@
 }
 .header{
     display: flex;
-    margin-left: 40rem;
+    margin-left: 41rem;
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -105,7 +105,7 @@
         gap: 1rem;
     }
     .header{
-        margin-left: -3rem;
+        margin-left: 15rem;
     }
     .uright{
         width: 100vw;

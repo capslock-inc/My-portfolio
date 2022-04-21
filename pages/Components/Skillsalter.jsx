@@ -25,11 +25,11 @@ export default function Skills() {
         <motion.li
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}}
-        ><a href='https:www.github.com/capslock-inc'> Github</a></motion.li>
+        ><a href='https://www.github.com/capslock-inc'> Github</a></motion.li>
         <motion.li
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards ',animationDelay:'300ms'}}
-        ><a href='https:www.medium.com/@Althaf.A'>Blog</a></motion.li>
+        ><a href='https://www.medium.com/@Althaf.A'>Blog</a></motion.li>
         <motion.li
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards ',animationDelay:'600ms'}}
