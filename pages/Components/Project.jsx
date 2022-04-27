@@ -27,7 +27,7 @@ export default function Project() {
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}} className={style.uright}>
             <span>Distributed Tracing</span>
-            <span>On gRPC based microservices running on kubernetes environmentWhere services are built with nodejs and golang.All the services are containerzied and orchestrated using kubernetes. Logging and tracing done by using Logstach - ElasticSearch - Kibana. </span>
+            <span>On gRPC based microservices running on kubernetes environment here services are built with nodejs and golang. All the services are containerzied and orchestrated using kubernetes. Logging and tracing done by using Logstach - ElasticSearch - Kibana. </span>
           </motion.div>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function Project() {
         initial={{opacity: 0}}
         whileInView={{animation: 'appear 1s linear forwards '}} className={style.lleft}>
             <span>Fullstack Ecommerce</span>
-            <span>Developed a Fullstack ecommer website by using Nextjs as frontend and strapi as content management system and go-fiber as JWT authentication API where all the elements are containerized and orchestrated using kubernetes </span>
+            <span>Developed a Fullstack ecommer website by using Nextjs as frontend and strapi as content management system and go-fiber as JWT authentication API where all the elements are containerized and orchestrated using kubernetes. </span>
           </motion.div></div>
 
           <div className={style.lright}>

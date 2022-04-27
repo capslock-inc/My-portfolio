@@ -52,6 +52,11 @@ button:hover{
   filter: blur(150px);
   z-index: -9;
 }
+@media only screen and (max-width:1300px){
+  .blur{
+    display: none;
+  }
+}
 
 
 @keyframes left-to-right {
